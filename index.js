@@ -50,4 +50,3 @@ app.get("/rtdb-JSON", (request, response) => {
 app.listen(port, () => {
     console.log(`Listenin' @ ${port}`);
 });
-// Server listening @ localhost:5000.
