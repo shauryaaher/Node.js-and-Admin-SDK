@@ -1,7 +1,7 @@
 const admin = require("firebase-admin");
 const serviceAccount = require("path/to/file");
 const express = require("express");
-const port = 5000
+const port = 5000;
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
